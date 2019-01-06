@@ -1,5 +1,10 @@
 ## ws-client: simple websocket client
 
+### Installation
+```
+npm i ws-clientik --save
+```
+
 ### Usage
 
 ###### Basic ws client (raw)
