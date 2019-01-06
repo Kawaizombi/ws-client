@@ -1,5 +1,5 @@
 {
-  "name": "ws-client",
+  "name": "ws-clientik",
   "version": "1.0.0",
   "description": "Simple WebSocket client",
   "main": "index.js",
