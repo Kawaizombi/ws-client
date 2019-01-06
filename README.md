@@ -1,4 +1,4 @@
-## ws-client: simple websocket client
+## ws-clientik: simple websocket client
 
 ### Installation
 ```
