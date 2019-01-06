@@ -4,12 +4,12 @@
 
 ###### Basic ws client (raw)
 ```js
-import { WebSocketClient, Events } from 'ws-client';
+import { WebSocketClient, Events } from 'ws-clientik';
 const client = new WebSocketClient(url);
 client.connect().then(() => console.log('Connected!'));
 ```
 ```js
-import { WebSocketClient, Events } from 'ws-client';
+import { WebSocketClient, Events } from 'ws-clientik';
 
 const client = new WebSocketClient(url);
 client.send('test'); // client.connect() will be called automatic before sending
@@ -19,7 +19,7 @@ client.on(Events.CLIENT_SOCKET_MESSAGE, (eventType, message) => console.log(mess
 
 ###### Middleware ws client (json, blob, arrayBuffer)
 ```js
-import { WebSocketClientWithMiddleware, Events } from 'ws-client';
+import { WebSocketClientWithMiddleware, Events } from 'ws-clientik';
 
 const client = new WebSocketClientWithMiddleware(url, {
   middleware: {
