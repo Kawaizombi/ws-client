@@ -1,6 +1,6 @@
 {
   "name": "ws-clientik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple WebSocket client",
   "main": "index.js",
   "scripts": {
